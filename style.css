@@ -87,9 +87,12 @@ h2 {
 
 .container {
   display: flex;
+  align-items:center;
+  gap:20px
 }
 
 /* About Me */
+
 
 .about-me {
   display: flex;
@@ -97,20 +100,20 @@ h2 {
 }
 
 #about-me h1 {
-  font-size: 65px;
+  font-size: 40px;
   margin-top: 90px;
   color: #7600bc;
 }
 
 #about-me p {
-  font-size: 25px;
+  font-size: 18px;
   color: rgb(128, 128, 128);
-  margin-top: -1cm;
+  margin-top: 10px;
 }
 
 .profile_image {
-  width: 550px;
-  height: fit-content;
+  width: 250px;
+  height: auto;
   vertical-align: middle;
   margin: 5px;
 }
